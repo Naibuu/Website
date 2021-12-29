@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+        <meta charset="utf-8">
+        <title>Socials</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta property="og:type" content="website">
+        <meta property="og:title" content="hs50">
+        <meta property="og:description" content="Socials Links for HS50">
+        <meta property="og:url" content="PUT URL HERE">
+        <meta property="og:image" content="assets/images/icon.png">
+        <meta name="theme-color" content="#9a8e9e">
+        <link rel="stylesheet" href="assets/css/main.css">
+    </head>
+    <body>
+        <main>
+            <script>
+                function audioPlay() {
+                    var audio = document.getElementById("audio");
+                    audio.volume = 1;
+                    audio.play()
+                }
+                function videoPlay() {
+                    var video = document.getElementById("video");
+                    video.play()
+                }
+            </script>
+
+            <input type="checkbox" autocomplete="off" id="overlay-toggle">
+            <div class="overlay fullscreen">
+                <label for="overlay-toggle" onclick="audioPlay();videoPlay()">
+                    <span class="hover" style="font-family: tommy; font-size: 0.6em;">This Website is still in undergoing Maintenance.</span>
+                </label>
+            </div>
+            <audio loop="" preload="auto" id="audio">
+                <source src="assets/audio/audio.mp3" type="audio/mp3">
+            </audio>
+            <video muted="muted" loop="" playsinline="" preload="auto" class="fullscreen bg-video" id="video">
+                <source src="assets/images/background.mp4" type="video/mp4">
+            </video>
+            <section class="fullscreen text-content">
+                <h1 style="font-family: panton; text-shadow: 0 0 0.40em #bababa;">HS50</h1>
+                <p style="font-family: tommy; font-size: 1.1em; text-shadow: 0 0 0.50em #bababa;"></p>
+				<p2 style="font-family: tommy; font-size: 1.1em; text-shadow: 0 0 0.50em #bababa;">Content Creator, Graphics Designer</p2>
+                <p3 style="font-family: tommylight; font-side: 1.0em; text-shadow: 0 0 0.50em #bababa;">View Some of my Socials that are listed down bellow.</p3>
+                <div class="socials">
+                    <a href="https://www.youtube.com/channel/UCo_vO1BGhmuTRzQLkRAHcmQ" style="text-decoration:none; font-family: tommybold; font-size: 1.1em; text-shadow: 0 0 0.40em #bababa;">Youtube</a>
+                     
+                    <a href="https://github.com/Naibuu" style="text-decoration:none; font-family: tommybold; font-size: 1.1em; text-shadow: 0 0 0.40em #bababa;">GitHub</a>
+                     
+                    <a href="https://discord.gg/themes" style="text-decoration:none; font-family: tommybold; font-size: 1.1em; text-shadow: 0 0 0.40em #bababa;">Themes</a>
+            </div>
+        </main>
+</body>
+</html>
