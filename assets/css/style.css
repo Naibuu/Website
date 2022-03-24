@@ -1,0 +1,171 @@
+@import url("../fonts/fonts.css");
+
+
+:root {
+    --black: rgb(13, 17, 23);;
+    --grey: rgb(22, 27, 34);;
+    --white: #FdFdFF;
+    --blue: rgb(29, 110, 196);
+    --light-blue: rgb(107, 178, 255);
+    --light-grey: rgb(191, 191, 213);
+    --gray-white: rgb(243, 243, 243);
+}
+
+html {
+    background-color: #fff;
+    color: var(--grey);
+}
+
+/* Text */
+
+h3 {
+    font-size: 3rem;
+    font-weight: 500;
+}
+
+h2 {
+    font-weight: 500;
+    font-size: 1.4rem;
+}
+
+p {
+    max-width: 70%;
+    line-height: 1.7;
+    text-align: justify;
+    font-size: 1rem;
+}
+
+p .prj-description {
+    text-align: left;
+    font-size: 1rem;
+    line-height: 0;
+}
+
+.info .title {
+    color: var(--black);
+    transition: 0.4s;
+}
+
+.underline {
+    border-bottom: var(--black) 1px solid;
+}
+
+.wave {
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+
+a, a:visited, a:focus {
+    color: var(--blue);
+    text-decoration: none;
+    border-bottom: var(--blue) 1px solid;
+    transition: 0.2s;
+}
+
+a:hover {
+    color: var(--light-blue);
+    border-bottom: var(--light-blue) 1px solid;
+}
+
+/* Main CSS */
+
+body {
+    font-family: 'Inter', sans-serif, Apple Color Emoji, Segoe UI Emoji;
+    display: grid;
+    grid-template-columns: repeat(12, [col-start] 1fr);
+    grid-auto-rows: auto;
+    font-size: 14px;
+    margin-left: 2rem;
+    margin-right: 2rem;    
+}
+
+/* Emoji */
+
+.em, .em-svg {
+    height: 1em;
+    width: 1em;
+    margin: 5px;
+}
+
+/* Project */
+
+.footer {
+    grid-column-start: 3;
+    grid-column-end: 11;
+}
+
+.footer > h2 {
+    padding-top: 2em;
+    font-size: 1.8rem;
+}
+
+.prj-title {
+    font-size: 1.2rem;
+}
+
+.projects {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    justify-content: space-around;
+}
+
+/* ETC */
+
+.info {
+    grid-column-start: 3;
+    grid-column-end: 11;
+}
+
+.info .title {
+    text-decoration: none;
+    border: 0;
+}
+
+/* Scrollbar CSS */
+  /* Firefox */
+  * {
+    scrollbar-width: auto;
+    scrollbar-color: #cccccc #ffffff;
+  }
+
+  /* Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 10px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: #ffffff;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: #cccccc;
+    border-radius: 10px;
+    border: 3px solid #ffffff;
+  }
+
+/* Mobile Compatibility */
+@media (max-width: 1300px) {
+    body {
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+    article {
+        grid-column-start: 1;
+        grid-column-end: 13;
+        max-width: 100%;
+    }
+    .info {
+        grid-column-start: 1;
+        grid-column-end: 13;
+        max-width: 100%;
+    }
+    .footer {
+        grid-column-start: 1;
+        grid-column-end: 13;
+        max-width: 100%;
+    }
+
+    p {
+        max-width: 100%;
+    }
+}
