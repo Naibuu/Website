@@ -10,13 +10,3 @@
 body {
     @apply mx-auto max-w-6xl bg-zinc-200 text-white dark:bg-zinc-950;
 }
-
-/* @utility squircle {
-    corner-shape: squircle;
-}
-
-@supports (corner-shape: squircle) {
-    .squircle {
-        corner-shape: squircle;
-    }
-} */

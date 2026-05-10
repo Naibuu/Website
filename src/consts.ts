@@ -1,12 +1,15 @@
 import type { Social, Skill, Project, Friend } from './types'
 
-export const Metadata: { title: string; description: string } = {
+export const userId = '1120045713867423835'
+export const fallbackUrl = 'https://naibuu.dev/assets/fallback.png'
+
+export const metadata: { title: string; description: string } = {
     title: 'Naibuu',
     description:
         "Heya! I'm Alex, also known as Naibuu. I'm a software developer and graphic designer from Greece, with experience in both web and software development. I also bring strong expertise in graphic design with a refined eye for detail and aesthetics.",
 }
 
-export const Information: {
+export const information: {
     icon: string
     text: string
 }[] = [
@@ -24,7 +27,7 @@ export const Information: {
     },
 ]
 
-export const Socials: Social[] = [
+export const socials: Social[] = [
     {
         text: 'Discord',
         url: 'https://s.naibuu.dev/discord',
@@ -52,7 +55,7 @@ export const Socials: Social[] = [
     },
 ]
 
-export const Skills: Skill[] = [
+export const skills: Skill[] = [
     {
         text: 'Software development',
         description: 'Visual Studio, Visual Studio Code and IntelliJ',
@@ -70,7 +73,7 @@ export const Skills: Skill[] = [
     },
 ]
 
-export const Projects: Project[] = [
+export const projects: Project[] = [
     {
         icon: '/assets/icons/cheatbreaker.png',
         role: 'Software Engineer',
@@ -115,7 +118,7 @@ export const Projects: Project[] = [
     },
 ]
 
-export const Friends: Friend[] = [
+export const friends: Friend[] = [
     {
         icon: 'https://www.thororen.com/assets/profile',
         text: 'thororen',

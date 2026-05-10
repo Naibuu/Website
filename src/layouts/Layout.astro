@@ -1,5 +1,5 @@
 ---
-import { Metadata } from '@/consts'
+import { metadata } from '@/consts'
 import '@/styles/global.css'
 
 import ThemeToggle from '@/components/ThemeToggle.astro'
@@ -12,7 +12,7 @@ import Footer from '@/components/Layout/Footer.astro'
 <!doctype html>
 <html lang="en">
     <head>
-        <Head {...Metadata} />
+        <Head {...metadata} />
     </head>
     <body class="min-h-screen">
         <ThemeToggle />
