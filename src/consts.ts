@@ -87,6 +87,19 @@ export const projects: Project[] = [
         url: 'https://cheatbreaker.net',
     },
     {
+        icon: '/assets/icons/equicord.png',
+        role: 'Web Developer',
+        start: 2025,
+        title: 'Equicord',
+        description:
+            'An enhanced version of Vencord with a wider selection of community-made plugins.',
+        tasks: [
+            'Contributed to the development of the website.',
+            'Created many of the designs used on the Discord and website.',
+        ],
+        url: 'https://equicord.org',
+    },
+    {
         icon: '/assets/icons/rend.png',
         role: 'Software Engineer',
         start: 2025,
