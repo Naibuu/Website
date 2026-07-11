@@ -57,18 +57,18 @@ export const socials: Social[] = [
 
 export const skills: Skill[] = [
     {
+        text: 'Web development',
+        description: 'SSR Frameworks, React, Svelte, Vue and Astro',
+        progress: 90,
+    },
+    {
         text: 'Software development',
-        description: 'Visual Studio, Visual Studio Code and IntelliJ',
-        progress: 75,
+        description: 'Rider, Visual Studio Code and IntelliJ',
+        progress: 80,
     },
     {
         text: 'Graphic design',
         description: 'Adobe Suite and Figma',
-        progress: 90,
-    },
-    {
-        text: 'Web development',
-        description: 'SSR Frameworks, React, Svelte, Vue and Astro',
         progress: 85,
     },
 ]
@@ -112,7 +112,7 @@ export const projects: Project[] = [
             'Led the design efforts for the project.',
             'Contributed to the development of internal tools to streamline workflows.',
         ],
-        url: 'https://rend.sh',
+        url: 'https://github.com/rend-dev',
     },
     {
         icon: '/assets/icons/hybris.png',
